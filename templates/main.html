@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<form method="post" action="/generate_map">
+    <fieldset>
+        <div>
+            <label for="latitude">Latitude:</label>
+            <input type="text" name="latitude" id='latitude'>
+        <div>
+            <label for="longitude">Longitude:</label>
+            <input type="text" name="longitude" id="longitude">
+        </div>
+        <div>
+            <label for="year">Year:</label>
+            <input type="text" name="year" id="year">
+        </div>
+        <button type="submit">GO!</button>
+    </fieldset>   
+</form>
+</body>
+</html>
